@@ -1,28 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home">
+    tools:context="Home">
 
-    <Button
-        android:id="@+id/bCreateNewInv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:text="Create New Inventory"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/bManageInv"
-        android:layout_width="0dp"
+    <LinearLayout
+        android:id="@+id/details_ll"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Manage Inventory"
-        app:layout_constraintEnd_toEndOf="@+id/bCreateNewInv"
-        app:layout_constraintStart_toStartOf="@+id/bCreateNewInv"
-        app:layout_constraintTop_toBottomOf="@+id/bCreateNewInv" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:elevation="15dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:ignore="RtlSymmetry"
+        tools:targetApi="lollipop">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/useremail_outlinedbox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/logout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/logout"
+            app:cornerRadius="10dp"
+            app:elevation="5dp"
+            app:rippleColor="@color/white"
+            app:strokeColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bCreateNewInv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/create_new_inventory"
+            app:cornerRadius="10dp"
+            app:elevation="5dp"
+            app:rippleColor="@color/white"
+            app:strokeColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bManageInv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/manage_inventory"
+            app:cornerRadius="10dp"
+            app:elevation="5dp"
+            app:rippleColor="@color/white"
+            app:strokeColor="@color/white" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

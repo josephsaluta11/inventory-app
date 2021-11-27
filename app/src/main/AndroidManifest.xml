@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Inventory">
         <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".ManageActivity"
             android:exported="false" />
         <activity
@@ -25,7 +28,7 @@
             android:name=".Registration"
             android:exported="false" />
         <activity
-            android:name=".Auth"
+            android:name=".Signup"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
