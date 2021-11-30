@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a4ac31-88f5-4855-abff-166b7f3c5621" name="Default Changelist" comment="Authentication is done">
+    <list default="true" id="55a4ac31-88f5-4855-abff-166b7f3c5621" name="Default Changelist" comment="Firebase Auth is finished">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638179223173</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Firebase Auth is finished">
+      <created>1638247419509</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638247419509</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +215,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Authentication is done" />
     <MESSAGE value="authentication is done." />
-    <option name="LAST_COMMIT_MESSAGE" value="authentication is done." />
+    <MESSAGE value="Firebase Auth is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firebase Auth is finished" />
   </component>
 </project>
