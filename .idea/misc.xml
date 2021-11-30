@@ -3,14 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/drawable/ic_baseline_ballot_24.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/activity_auth.xml" value="0.1094224924012158" />
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/activity_home.xml" value="0.225" />
+        <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/activity_invcurrent.xml" value="0.225" />
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/activity_login.xml" value="0.225" />
+        <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/activity_manage.xml" value="0.225" />
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/activity_new_inventory.xml" value="0.33" />
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/activity_profile.xml" value="0.225" />
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/activity_signup.xml" value="0.2" />
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/dialog_edit_text.xml" value="0.225" />
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/dialog_edit_text_mail.xml" value="0.225" />
+        <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/popup.xml" value="0.225" />
       </map>
     </option>
   </component>
