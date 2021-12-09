@@ -51,6 +51,18 @@ public class Home extends AppCompatActivity {
             }
         });
 
+        bCreateNewInv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { createNewInventory(); }
+        });
+
+        bManageInv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { manageInventory(); }
+        });
+
+
+
     }
 
     @Override

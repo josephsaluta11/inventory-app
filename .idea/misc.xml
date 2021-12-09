@@ -17,11 +17,21 @@
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/dialog_edit_text.xml" value="0.225" />
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/dialog_edit_text_mail.xml" value="0.225" />
         <entry key="..\:/Users/jeffe/AndroidStudioProjects/inventory-app/app/src/main/res/layout/popup.xml" value="0.225" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1279128672745694" />
+        <entry key="app/src/main/res/layout/activity_invcurrent.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/layout/activity_manage.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/layout/activity_new_inventory.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/layout/activity_registration.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/layout/dialog_edit_text.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/layout/ilist_layout.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/layout/list_layout.xml" value="0.2630208333333333" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio java home" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio java home" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
