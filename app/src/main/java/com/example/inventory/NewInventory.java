@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -24,7 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 public class NewInventory extends AppCompatActivity {
 
     private Button bCreate;
-    private EditText inventoryname;
+    private TextInputEditText inventoryname;
     private FirebaseAuth firebaseAuth;
     DatabaseReference databaseReference;
     DatabaseReference databaseReferencecat;
@@ -63,45 +64,37 @@ public class NewInventory extends AppCompatActivity {
 
             Inventory inventory = new Inventory(inventorynameValue);
 
-            databaseReference.child(resultemail).child("Inventory").child(inventorynameValue).addListenerForSingleValueEvent(new ValueEventListener() {
-                @Override
-                public void onDataChange(@NonNull DataSnapshot snapshot) {
+            databaseReference.child(resultemail).child("Inventory")
+                    .child(inventorynameValue)
+                    .addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
 
-                    if(!(snapshot.exists())) {
-                        databaseReference.child(resultemail).child("Inventory").child(inventorynameValue).setValue(inventory);
-                        Toast.makeText(NewInventory.this, inventorynameValue + " Added", Toast.LENGTH_SHORT).show();
-                        nextpage();
-                    }
+                            if(!(snapshot.exists())) {
+                                databaseReference.child(resultemail).child("Inventory").child(inventorynameValue).setValue(inventory);
+                                Toast.makeText(NewInventory.this, inventorynameValue + " Added", Toast.LENGTH_SHORT).show();
+                                nextpage();
+                            }
 
-                    else {
-                        Toast.makeText(NewInventory.this, inventorynameValue + " already exists", Toast.LENGTH_SHORT).show();
-                        inventoryname.setText("");
-                    }
+                            else {
+                                Toast.makeText(NewInventory.this, inventorynameValue + " already exists", Toast.LENGTH_SHORT).show();
+                                inventoryname.setText("");
+                            }
 
-                }
+                        }
 
-                @Override
-                public void onCancelled(@NonNull DatabaseError error) {
-
-
-                }
-            });
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {
 
 
-
-
-
-
-
+                        }
+                    });
 
         }
 
         else {
             Toast.makeText(NewInventory.this, "Please fill inventory name", Toast.LENGTH_SHORT).show();
         }
-
-
-
     }
 
     public void nextpage() {

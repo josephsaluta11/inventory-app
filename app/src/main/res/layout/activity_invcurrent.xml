@@ -6,56 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".InvCurrent">
 
+    <EditText
+        android:id="@+id/searchfield"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#11AA9E9E"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="SpeakableTextPresentCheck" />
+
     <Button
         android:id="@+id/bAddItem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:text="Add Item"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/bTakeOut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
-        android:text="Take-Out"
-        app:layout_constraintStart_toEndOf="@+id/bAddItem"
-        app:layout_constraintTop_toTopOf="@+id/bAddItem" />
-
-    <Button
-        android:id="@+id/bReport"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
-        android:text="Report"
-        app:layout_constraintStart_toEndOf="@+id/bHistory"
-        app:layout_constraintTop_toTopOf="@+id/bHistory" />
-
-    <Button
-        android:id="@+id/bHistory"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
-        android:text="History"
-        app:layout_constraintStart_toEndOf="@+id/bTakeOut"
-        app:layout_constraintTop_toTopOf="@+id/bTakeOut" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Inventory Name"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,11 +59,11 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/bTakeOut"
+        app:layout_constraintBottom_toTopOf="@+id/bAddItem"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/searchfield"
         app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -27,6 +27,8 @@
         <entry key="app/src/main/res/layout/dialog_edit_text.xml" value="0.2630208333333333" />
         <entry key="app/src/main/res/layout/ilist_layout.xml" value="0.2630208333333333" />
         <entry key="app/src/main/res/layout/list_layout.xml" value="0.2630208333333333" />
+        <entry key="app/src/main/res/layout/popup.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/popupdelete.xml" value="0.1" />
       </map>
     </option>
   </component>

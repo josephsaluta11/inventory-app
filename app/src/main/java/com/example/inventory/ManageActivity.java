@@ -46,37 +46,7 @@ public class ManageActivity extends AppCompatActivity {
         inventoryrecyclerview = findViewById(R.id.inventoryrv);
         inventoryrecyclerview.setLayoutManager(new LinearLayoutManager(this));
 
-        //setup adapter
-        /**
-         FirebaseRecyclerOptions<Inventory> options = new FirebaseRecyclerOptions.Builder<Inventory>().setQuery(inventorydatabaseReference, Inventory.class).build();
-         adapter = new inventoryAdapter(options);
-         inventoryrecyclerview.setAdapter(adapter);
-
-         bOpen = findViewById(R.id.bOpen);
-         bEdit = findViewById(R.id.bEdit);
-
-         bOpen.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) { openInventory(); }
-        });
-
-         bEdit.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) { editInventory(); }
-        });
-         **/
     }
-    /**
-     public void openInventory() {
-     Intent intent = new Intent(this, InvCurrent.class);
-     startActivity(intent);
-     }
-
-     public void editInventory() {
-     Intent intent = new Intent(this, InvCurrent.class);
-     startActivity(intent);
-     }
-     **/
 
     @Override
     protected void onStart() {

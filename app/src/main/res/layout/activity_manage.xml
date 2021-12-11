@@ -6,30 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ManageActivity">
 
-    <Button
-        android:id="@+id/bOpen"
-        android:layout_width="156dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="24dp"
-        android:text="Open"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/bEdit"
-        android:layout_width="156dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:text="Edit"
-        app:layout_constraintBottom_toBottomOf="@+id/bOpen"
-        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Inventory List"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,8 +25,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="2dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/bOpen"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
