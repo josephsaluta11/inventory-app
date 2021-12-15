@@ -9,15 +9,26 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a4ac31-88f5-4855-abff-166b7f3c5621" name="Default Changelist" comment="Firebase Auth is finished">
+    <list default="true" id="55a4ac31-88f5-4855-abff-166b7f3c5621" name="Default Changelist" comment="Firebase Realtime Database">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/popupdelete.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/inventory/InvCurrent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/inventory/InvCurrent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/inventory/ManageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/inventory/ManageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/inventory/NewInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/inventory/NewInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/inventory/inventoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/inventory/inventoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_invcurrent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_invcurrent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_manage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_manage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_new_inventory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_new_inventory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/popup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/popup.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\jeffe\.android\avd\Nexus_5_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/claw00/.android/avd/Pixel_3_API_28.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -26,11 +37,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20SN3TiiwX8JkwjjgeAXHLGDryh" />
@@ -43,10 +60,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../InventoryApplication" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -217,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638248560297</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Firebase Realtime Database">
+      <created>1639065054462</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639065054462</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +254,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="firebase_realtime_database" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -236,6 +277,7 @@
     <MESSAGE value="Authentication is done" />
     <MESSAGE value="authentication is done." />
     <MESSAGE value="Firebase Auth is finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firebase Auth is finished" />
+    <MESSAGE value="Firebase Realtime Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firebase Realtime Database" />
   </component>
 </project>

@@ -9,32 +9,45 @@
     >
 
     <Button
-        android:id="@+id/saveButton"
+        android:id="@+id/updateButton_"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
-        android:text="Save"
+        android:text="Update"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout10" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout10_" />
 
     <Button
-        android:id="@+id/cancelButton"
+        android:id="@+id/deleteButton_"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#BF3D3D"
+        android:text="Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateButton_" />
+
+    <Button
+        android:id="@+id/cancelButton_"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:text="Cancel"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/saveButton" />
+        app:layout_constraintTop_toBottomOf="@+id/deleteButton_" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout8"
+        android:id="@+id/textInputLayout8_"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,14 +59,14 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/newitempopup_category"
+            android:id="@+id/newitempopup_category_"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Item Category" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout9"
+        android:id="@+id/textInputLayout9_"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,18 +74,18 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/textInputLayout8"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout8">
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout8_"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout8_">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/newitempopup_description"
+            android:id="@+id/newitempopup_description_"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Item Name" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
+        android:id="@+id/textInputLayout_"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,17 +94,17 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout9">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout9_">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/newitempopup_quantity"
+            android:id="@+id/newitempopup_quantity_"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Quantity" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout10"
+        android:id="@+id/textInputLayout10_"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -100,10 +113,10 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout_">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/newitempopup_unit"
+            android:id="@+id/newitempopup_unit_"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Unit" />
